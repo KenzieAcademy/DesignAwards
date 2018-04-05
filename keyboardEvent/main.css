@@ -1,0 +1,22 @@
+
+
+#box {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 2000px;
+    top: 2000px;
+    background-image: url("images/scorpion.gif");
+    background-color: transparent;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    
+    
+}
+body {
+    background-image: url("images/gif.gif");
+    background-color: #cccccc;
+    background-size: 100%;
+    background-repeat: no-repeat;
+ }
+ 

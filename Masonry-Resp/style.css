@@ -1,0 +1,27 @@
+#page-container {display: flex;}
+header, .practice-div {
+    flex: 1;
+}
+header {
+    height: fit-content;
+    border: 2px groove grey;
+    padding: 1%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 25%;
+}
+.masonry-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.masonry-item {flex: 1;}
+img {
+    margin-bottom: 20px;
+    flex: 1;
+    max-width: 236px;
+}
+
+@media screen and (max-width: 792px) {
+    #page-container {flex-direction: column;}
+}
